@@ -1,0 +1,52 @@
+# Binaries
+/bin/
+/imgx
+/imgx.exe
+*.exe
+*.out
+*.app
+
+# Go build/test artifacts
+*.test
+*.prof
+coverage.out
+coverage.html
+
+# GoReleaser
+/dist/
+/.snapshot/
+
+# Local/generated images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+!examples/*.png
+!examples/*.jpg
+!examples/*.jpeg
+
+# IDE/editor
+.idea/
+.vscode/
+.zed/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp/local env
+.env
+.env.*
+!.env.example
+/tmp/
+/tmp-*/
+
+# Test fixtures generated during development
+/testdata/generated/
